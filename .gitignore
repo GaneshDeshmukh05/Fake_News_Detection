@@ -1,0 +1,39 @@
+# Model and results directories
+results/
+distilbert_fake_news_model/
+model/
+
+# Dataset files (keep small files, ignore large CSVs and datasets)
+dataset/
+*.csv
+*.tsv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Pip
+*.egg-info/
+dist/
+build/
